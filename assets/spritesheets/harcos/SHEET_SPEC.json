@@ -1,0 +1,267 @@
+{
+  "id": "harcos",
+  "frameWidth": 32,
+  "frameHeight": 40,
+  "origin": {
+    "x": 0.5,
+    "y": 1.0
+  },
+  "hitbox": {
+    "width": 16,
+    "height": 34,
+    "offsetX": 8,
+    "offsetY": 6
+  },
+  "footRow": 39,
+  "facing": "right (flipX for left)",
+  "source": "concept harcos v3 (32x40)",
+  "note": "Shuriken is NOT baked: spawn the projectile on the hit frame.",
+  "airborneNote": "jump, fall, attack_air are not foot-anchored (torso stays put, legs tuck up). Ground anims keep feet on row 39.",
+  "deathNote": "death uses 64x40 cells; origin (0.5,1) keeps the body at the same world x; hitbox offsetX +16.",
+  "animations": {
+    "idle": {
+      "key": "harcos-idle",
+      "file": "harcos-idle.png",
+      "path": "/assets/spritesheets/harcos/harcos-idle.png",
+      "frameWidth": 32,
+      "frameHeight": 40,
+      "frames": 4,
+      "fps": 6,
+      "loop": true,
+      "repeat": -1,
+      "footAnchored": true,
+      "origin": {
+        "x": 0.5,
+        "y": 1.0,
+        "px": [
+          16,
+          40
+        ]
+      },
+      "hitbox": {
+        "width": 16,
+        "height": 34,
+        "offsetX": 8,
+        "offsetY": 6
+      }
+    },
+    "run": {
+      "key": "harcos-run",
+      "file": "harcos-run.png",
+      "path": "/assets/spritesheets/harcos/harcos-run.png",
+      "frameWidth": 32,
+      "frameHeight": 40,
+      "frames": 8,
+      "fps": 12,
+      "loop": true,
+      "repeat": -1,
+      "footAnchored": true,
+      "origin": {
+        "x": 0.5,
+        "y": 1.0,
+        "px": [
+          16,
+          40
+        ]
+      },
+      "hitbox": {
+        "width": 16,
+        "height": 34,
+        "offsetX": 8,
+        "offsetY": 6
+      }
+    },
+    "jump": {
+      "key": "harcos-jump",
+      "file": "harcos-jump.png",
+      "path": "/assets/spritesheets/harcos/harcos-jump.png",
+      "frameWidth": 32,
+      "frameHeight": 40,
+      "frames": 2,
+      "fps": 10,
+      "loop": false,
+      "repeat": 0,
+      "footAnchored": false,
+      "origin": {
+        "x": 0.5,
+        "y": 1.0,
+        "px": [
+          16,
+          40
+        ]
+      },
+      "hitbox": {
+        "width": 16,
+        "height": 34,
+        "offsetX": 8,
+        "offsetY": 6
+      },
+      "holdLastFrame": true
+    },
+    "fall": {
+      "key": "harcos-fall",
+      "file": "harcos-fall.png",
+      "path": "/assets/spritesheets/harcos/harcos-fall.png",
+      "frameWidth": 32,
+      "frameHeight": 40,
+      "frames": 2,
+      "fps": 8,
+      "loop": true,
+      "repeat": -1,
+      "footAnchored": false,
+      "origin": {
+        "x": 0.5,
+        "y": 1.0,
+        "px": [
+          16,
+          40
+        ]
+      },
+      "hitbox": {
+        "width": 16,
+        "height": 34,
+        "offsetX": 8,
+        "offsetY": 6
+      }
+    },
+    "land": {
+      "key": "harcos-land",
+      "file": "harcos-land.png",
+      "path": "/assets/spritesheets/harcos/harcos-land.png",
+      "frameWidth": 32,
+      "frameHeight": 40,
+      "frames": 2,
+      "fps": 15,
+      "loop": false,
+      "repeat": 0,
+      "footAnchored": true,
+      "origin": {
+        "x": 0.5,
+        "y": 1.0,
+        "px": [
+          16,
+          40
+        ]
+      },
+      "hitbox": {
+        "width": 16,
+        "height": 34,
+        "offsetX": 8,
+        "offsetY": 6
+      }
+    },
+    "attack_ground": {
+      "key": "harcos-attack-ground",
+      "file": "harcos-attack-ground.png",
+      "path": "/assets/spritesheets/harcos/harcos-attack-ground.png",
+      "frameWidth": 32,
+      "frameHeight": 40,
+      "frames": 5,
+      "fps": 15,
+      "loop": false,
+      "repeat": 0,
+      "footAnchored": true,
+      "origin": {
+        "x": 0.5,
+        "y": 1.0,
+        "px": [
+          16,
+          40
+        ]
+      },
+      "hitbox": {
+        "width": 16,
+        "height": 34,
+        "offsetX": 8,
+        "offsetY": 6
+      },
+      "hitFrames": [
+        1
+      ],
+      "hitFramesNote": "projectile spawn frame (0-based)"
+    },
+    "attack_air": {
+      "key": "harcos-attack-air",
+      "file": "harcos-attack-air.png",
+      "path": "/assets/spritesheets/harcos/harcos-attack-air.png",
+      "frameWidth": 32,
+      "frameHeight": 40,
+      "frames": 4,
+      "fps": 15,
+      "loop": false,
+      "repeat": 0,
+      "footAnchored": false,
+      "origin": {
+        "x": 0.5,
+        "y": 1.0,
+        "px": [
+          16,
+          40
+        ]
+      },
+      "hitbox": {
+        "width": 16,
+        "height": 34,
+        "offsetX": 8,
+        "offsetY": 6
+      },
+      "hitFrames": [
+        1
+      ],
+      "hitFramesNote": "projectile spawn frame (0-based)"
+    },
+    "hurt": {
+      "key": "harcos-hurt",
+      "file": "harcos-hurt.png",
+      "path": "/assets/spritesheets/harcos/harcos-hurt.png",
+      "frameWidth": 32,
+      "frameHeight": 40,
+      "frames": 2,
+      "fps": 10,
+      "loop": false,
+      "repeat": 0,
+      "footAnchored": true,
+      "origin": {
+        "x": 0.5,
+        "y": 1.0,
+        "px": [
+          16,
+          40
+        ]
+      },
+      "hitbox": {
+        "width": 16,
+        "height": 34,
+        "offsetX": 8,
+        "offsetY": 6
+      }
+    },
+    "death": {
+      "key": "harcos-death",
+      "file": "harcos-death.png",
+      "path": "/assets/spritesheets/harcos/harcos-death.png",
+      "frameWidth": 64,
+      "frameHeight": 40,
+      "frames": 8,
+      "fps": 8,
+      "loop": false,
+      "repeat": 0,
+      "footAnchored": true,
+      "origin": {
+        "x": 0.5,
+        "y": 1.0,
+        "px": [
+          32,
+          40
+        ]
+      },
+      "hitbox": {
+        "width": 16,
+        "height": 34,
+        "offsetX": 24,
+        "offsetY": 6
+      },
+      "holdLastFrame": true
+    }
+  }
+}

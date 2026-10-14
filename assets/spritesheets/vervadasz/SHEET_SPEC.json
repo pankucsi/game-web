@@ -1,0 +1,269 @@
+{
+  "id": "vervadasz",
+  "frameWidth": 32,
+  "frameHeight": 40,
+  "origin": {
+    "x": 0.5,
+    "y": 1.0
+  },
+  "hitbox": {
+    "width": 16,
+    "height": 32,
+    "offsetX": 9,
+    "offsetY": 8
+  },
+  "footRow": 39,
+  "facing": "right (flipX for left)",
+  "source": "concept vervadasz v3 (32x40)",
+  "note": "Claws are part of the sprite; crimson smear (fam_ver/scarf_1) on attack frames 1-2.",
+  "airborneNote": "jump, fall, attack_air are not foot-anchored (torso stays put, legs tuck up). Ground anims keep feet on row 39.",
+  "deathNote": "death uses 64x40 cells; origin (0.5,1) keeps the body at the same world x; hitbox offsetX +16.",
+  "animations": {
+    "idle": {
+      "key": "vervadasz-idle",
+      "file": "vervadasz-idle.png",
+      "path": "/assets/spritesheets/vervadasz/vervadasz-idle.png",
+      "frameWidth": 32,
+      "frameHeight": 40,
+      "frames": 4,
+      "fps": 6,
+      "loop": true,
+      "repeat": -1,
+      "footAnchored": true,
+      "origin": {
+        "x": 0.5,
+        "y": 1.0,
+        "px": [
+          16,
+          40
+        ]
+      },
+      "hitbox": {
+        "width": 16,
+        "height": 32,
+        "offsetX": 9,
+        "offsetY": 8
+      }
+    },
+    "run": {
+      "key": "vervadasz-run",
+      "file": "vervadasz-run.png",
+      "path": "/assets/spritesheets/vervadasz/vervadasz-run.png",
+      "frameWidth": 32,
+      "frameHeight": 40,
+      "frames": 8,
+      "fps": 12,
+      "loop": true,
+      "repeat": -1,
+      "footAnchored": true,
+      "origin": {
+        "x": 0.5,
+        "y": 1.0,
+        "px": [
+          16,
+          40
+        ]
+      },
+      "hitbox": {
+        "width": 16,
+        "height": 32,
+        "offsetX": 9,
+        "offsetY": 8
+      }
+    },
+    "jump": {
+      "key": "vervadasz-jump",
+      "file": "vervadasz-jump.png",
+      "path": "/assets/spritesheets/vervadasz/vervadasz-jump.png",
+      "frameWidth": 32,
+      "frameHeight": 40,
+      "frames": 2,
+      "fps": 10,
+      "loop": false,
+      "repeat": 0,
+      "footAnchored": false,
+      "origin": {
+        "x": 0.5,
+        "y": 1.0,
+        "px": [
+          16,
+          40
+        ]
+      },
+      "hitbox": {
+        "width": 16,
+        "height": 32,
+        "offsetX": 9,
+        "offsetY": 8
+      },
+      "holdLastFrame": true
+    },
+    "fall": {
+      "key": "vervadasz-fall",
+      "file": "vervadasz-fall.png",
+      "path": "/assets/spritesheets/vervadasz/vervadasz-fall.png",
+      "frameWidth": 32,
+      "frameHeight": 40,
+      "frames": 2,
+      "fps": 8,
+      "loop": true,
+      "repeat": -1,
+      "footAnchored": false,
+      "origin": {
+        "x": 0.5,
+        "y": 1.0,
+        "px": [
+          16,
+          40
+        ]
+      },
+      "hitbox": {
+        "width": 16,
+        "height": 32,
+        "offsetX": 9,
+        "offsetY": 8
+      }
+    },
+    "land": {
+      "key": "vervadasz-land",
+      "file": "vervadasz-land.png",
+      "path": "/assets/spritesheets/vervadasz/vervadasz-land.png",
+      "frameWidth": 32,
+      "frameHeight": 40,
+      "frames": 2,
+      "fps": 15,
+      "loop": false,
+      "repeat": 0,
+      "footAnchored": true,
+      "origin": {
+        "x": 0.5,
+        "y": 1.0,
+        "px": [
+          16,
+          40
+        ]
+      },
+      "hitbox": {
+        "width": 16,
+        "height": 32,
+        "offsetX": 9,
+        "offsetY": 8
+      }
+    },
+    "attack_ground": {
+      "key": "vervadasz-attack-ground",
+      "file": "vervadasz-attack-ground.png",
+      "path": "/assets/spritesheets/vervadasz/vervadasz-attack-ground.png",
+      "frameWidth": 32,
+      "frameHeight": 40,
+      "frames": 5,
+      "fps": 15,
+      "loop": false,
+      "repeat": 0,
+      "footAnchored": true,
+      "origin": {
+        "x": 0.5,
+        "y": 1.0,
+        "px": [
+          16,
+          40
+        ]
+      },
+      "hitbox": {
+        "width": 16,
+        "height": 32,
+        "offsetX": 9,
+        "offsetY": 8
+      },
+      "hitFrames": [
+        1,
+        2
+      ],
+      "hitFramesNote": "active hit frames (0-based)"
+    },
+    "attack_air": {
+      "key": "vervadasz-attack-air",
+      "file": "vervadasz-attack-air.png",
+      "path": "/assets/spritesheets/vervadasz/vervadasz-attack-air.png",
+      "frameWidth": 32,
+      "frameHeight": 40,
+      "frames": 4,
+      "fps": 15,
+      "loop": false,
+      "repeat": 0,
+      "footAnchored": false,
+      "origin": {
+        "x": 0.5,
+        "y": 1.0,
+        "px": [
+          16,
+          40
+        ]
+      },
+      "hitbox": {
+        "width": 16,
+        "height": 32,
+        "offsetX": 9,
+        "offsetY": 8
+      },
+      "hitFrames": [
+        1,
+        2
+      ],
+      "hitFramesNote": "active hit frames (0-based)"
+    },
+    "hurt": {
+      "key": "vervadasz-hurt",
+      "file": "vervadasz-hurt.png",
+      "path": "/assets/spritesheets/vervadasz/vervadasz-hurt.png",
+      "frameWidth": 32,
+      "frameHeight": 40,
+      "frames": 2,
+      "fps": 10,
+      "loop": false,
+      "repeat": 0,
+      "footAnchored": true,
+      "origin": {
+        "x": 0.5,
+        "y": 1.0,
+        "px": [
+          16,
+          40
+        ]
+      },
+      "hitbox": {
+        "width": 16,
+        "height": 32,
+        "offsetX": 9,
+        "offsetY": 8
+      }
+    },
+    "death": {
+      "key": "vervadasz-death",
+      "file": "vervadasz-death.png",
+      "path": "/assets/spritesheets/vervadasz/vervadasz-death.png",
+      "frameWidth": 64,
+      "frameHeight": 40,
+      "frames": 8,
+      "fps": 8,
+      "loop": false,
+      "repeat": 0,
+      "footAnchored": true,
+      "origin": {
+        "x": 0.5,
+        "y": 1.0,
+        "px": [
+          32,
+          40
+        ]
+      },
+      "hitbox": {
+        "width": 16,
+        "height": 32,
+        "offsetX": 25,
+        "offsetY": 8
+      },
+      "holdLastFrame": true
+    }
+  }
+}

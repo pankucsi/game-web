@@ -1,0 +1,267 @@
+{
+  "id": "erdojaro",
+  "frameWidth": 32,
+  "frameHeight": 40,
+  "origin": {
+    "x": 0.5,
+    "y": 1.0
+  },
+  "hitbox": {
+    "width": 16,
+    "height": 34,
+    "offsetX": 8,
+    "offsetY": 6
+  },
+  "footRow": 39,
+  "facing": "right (flipX for left)",
+  "source": "concept erdojaro v3 (32x40)",
+  "note": "Pinecone leaves the hand on frames 1-3 (projectile/boomerang spawned in code) and is caught back on frame 4. The idle/run cone is part of the sprite.",
+  "airborneNote": "jump, fall, attack_air are not foot-anchored (torso stays put, legs tuck up). Ground anims keep feet on row 39.",
+  "deathNote": "death uses 64x40 cells; origin (0.5,1) keeps the body at the same world x; hitbox offsetX +16.",
+  "animations": {
+    "idle": {
+      "key": "erdojaro-idle",
+      "file": "erdojaro-idle.png",
+      "path": "/assets/spritesheets/erdojaro/erdojaro-idle.png",
+      "frameWidth": 32,
+      "frameHeight": 40,
+      "frames": 4,
+      "fps": 6,
+      "loop": true,
+      "repeat": -1,
+      "footAnchored": true,
+      "origin": {
+        "x": 0.5,
+        "y": 1.0,
+        "px": [
+          16,
+          40
+        ]
+      },
+      "hitbox": {
+        "width": 16,
+        "height": 34,
+        "offsetX": 8,
+        "offsetY": 6
+      }
+    },
+    "run": {
+      "key": "erdojaro-run",
+      "file": "erdojaro-run.png",
+      "path": "/assets/spritesheets/erdojaro/erdojaro-run.png",
+      "frameWidth": 32,
+      "frameHeight": 40,
+      "frames": 8,
+      "fps": 12,
+      "loop": true,
+      "repeat": -1,
+      "footAnchored": true,
+      "origin": {
+        "x": 0.5,
+        "y": 1.0,
+        "px": [
+          16,
+          40
+        ]
+      },
+      "hitbox": {
+        "width": 16,
+        "height": 34,
+        "offsetX": 8,
+        "offsetY": 6
+      }
+    },
+    "jump": {
+      "key": "erdojaro-jump",
+      "file": "erdojaro-jump.png",
+      "path": "/assets/spritesheets/erdojaro/erdojaro-jump.png",
+      "frameWidth": 32,
+      "frameHeight": 40,
+      "frames": 2,
+      "fps": 10,
+      "loop": false,
+      "repeat": 0,
+      "footAnchored": false,
+      "origin": {
+        "x": 0.5,
+        "y": 1.0,
+        "px": [
+          16,
+          40
+        ]
+      },
+      "hitbox": {
+        "width": 16,
+        "height": 34,
+        "offsetX": 8,
+        "offsetY": 6
+      },
+      "holdLastFrame": true
+    },
+    "fall": {
+      "key": "erdojaro-fall",
+      "file": "erdojaro-fall.png",
+      "path": "/assets/spritesheets/erdojaro/erdojaro-fall.png",
+      "frameWidth": 32,
+      "frameHeight": 40,
+      "frames": 2,
+      "fps": 8,
+      "loop": true,
+      "repeat": -1,
+      "footAnchored": false,
+      "origin": {
+        "x": 0.5,
+        "y": 1.0,
+        "px": [
+          16,
+          40
+        ]
+      },
+      "hitbox": {
+        "width": 16,
+        "height": 34,
+        "offsetX": 8,
+        "offsetY": 6
+      }
+    },
+    "land": {
+      "key": "erdojaro-land",
+      "file": "erdojaro-land.png",
+      "path": "/assets/spritesheets/erdojaro/erdojaro-land.png",
+      "frameWidth": 32,
+      "frameHeight": 40,
+      "frames": 2,
+      "fps": 15,
+      "loop": false,
+      "repeat": 0,
+      "footAnchored": true,
+      "origin": {
+        "x": 0.5,
+        "y": 1.0,
+        "px": [
+          16,
+          40
+        ]
+      },
+      "hitbox": {
+        "width": 16,
+        "height": 34,
+        "offsetX": 8,
+        "offsetY": 6
+      }
+    },
+    "attack_ground": {
+      "key": "erdojaro-attack-ground",
+      "file": "erdojaro-attack-ground.png",
+      "path": "/assets/spritesheets/erdojaro/erdojaro-attack-ground.png",
+      "frameWidth": 32,
+      "frameHeight": 40,
+      "frames": 5,
+      "fps": 15,
+      "loop": false,
+      "repeat": 0,
+      "footAnchored": true,
+      "origin": {
+        "x": 0.5,
+        "y": 1.0,
+        "px": [
+          16,
+          40
+        ]
+      },
+      "hitbox": {
+        "width": 16,
+        "height": 34,
+        "offsetX": 8,
+        "offsetY": 6
+      },
+      "hitFrames": [
+        1
+      ],
+      "hitFramesNote": "projectile spawn frame (0-based)"
+    },
+    "attack_air": {
+      "key": "erdojaro-attack-air",
+      "file": "erdojaro-attack-air.png",
+      "path": "/assets/spritesheets/erdojaro/erdojaro-attack-air.png",
+      "frameWidth": 32,
+      "frameHeight": 40,
+      "frames": 4,
+      "fps": 15,
+      "loop": false,
+      "repeat": 0,
+      "footAnchored": false,
+      "origin": {
+        "x": 0.5,
+        "y": 1.0,
+        "px": [
+          16,
+          40
+        ]
+      },
+      "hitbox": {
+        "width": 16,
+        "height": 34,
+        "offsetX": 8,
+        "offsetY": 6
+      },
+      "hitFrames": [
+        1
+      ],
+      "hitFramesNote": "projectile spawn frame (0-based)"
+    },
+    "hurt": {
+      "key": "erdojaro-hurt",
+      "file": "erdojaro-hurt.png",
+      "path": "/assets/spritesheets/erdojaro/erdojaro-hurt.png",
+      "frameWidth": 32,
+      "frameHeight": 40,
+      "frames": 2,
+      "fps": 10,
+      "loop": false,
+      "repeat": 0,
+      "footAnchored": true,
+      "origin": {
+        "x": 0.5,
+        "y": 1.0,
+        "px": [
+          16,
+          40
+        ]
+      },
+      "hitbox": {
+        "width": 16,
+        "height": 34,
+        "offsetX": 8,
+        "offsetY": 6
+      }
+    },
+    "death": {
+      "key": "erdojaro-death",
+      "file": "erdojaro-death.png",
+      "path": "/assets/spritesheets/erdojaro/erdojaro-death.png",
+      "frameWidth": 64,
+      "frameHeight": 40,
+      "frames": 8,
+      "fps": 8,
+      "loop": false,
+      "repeat": 0,
+      "footAnchored": true,
+      "origin": {
+        "x": 0.5,
+        "y": 1.0,
+        "px": [
+          32,
+          40
+        ]
+      },
+      "hitbox": {
+        "width": 16,
+        "height": 34,
+        "offsetX": 24,
+        "offsetY": 6
+      },
+      "holdLastFrame": true
+    }
+  }
+}

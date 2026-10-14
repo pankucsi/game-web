@@ -1,0 +1,1135 @@
+{
+ "name": "tower_tileset",
+ "image": "tower_tileset.png",
+ "imagewidth": 256,
+ "imageheight": 48,
+ "tilewidth": 16,
+ "tileheight": 16,
+ "columns": 16,
+ "tilecount": 48,
+ "margin": 0,
+ "spacing": 0,
+ "tiles": [
+  {
+   "id": 0,
+   "type": "wall_fill",
+   "properties": [
+    {
+     "name": "collides",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "oneWay",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "deco",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "name",
+     "type": "string",
+     "value": "wall_fill"
+    }
+   ]
+  },
+  {
+   "id": 1,
+   "type": "wall_fill_var",
+   "properties": [
+    {
+     "name": "collides",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "oneWay",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "deco",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "name",
+     "type": "string",
+     "value": "wall_fill_var"
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "type": "wall_edge_L",
+   "properties": [
+    {
+     "name": "collides",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "oneWay",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "deco",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "name",
+     "type": "string",
+     "value": "wall_edge_L"
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "type": "wall_edge_R",
+   "properties": [
+    {
+     "name": "collides",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "oneWay",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "deco",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "name",
+     "type": "string",
+     "value": "wall_edge_R"
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "type": "wall_fill_moss",
+   "properties": [
+    {
+     "name": "collides",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "oneWay",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "deco",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "name",
+     "type": "string",
+     "value": "wall_fill_moss"
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "type": "plat_top_L",
+   "properties": [
+    {
+     "name": "collides",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "oneWay",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "deco",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "name",
+     "type": "string",
+     "value": "plat_top_L"
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "type": "plat_top_M",
+   "properties": [
+    {
+     "name": "collides",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "oneWay",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "deco",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "name",
+     "type": "string",
+     "value": "plat_top_M"
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "type": "plat_top_R",
+   "properties": [
+    {
+     "name": "collides",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "oneWay",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "deco",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "name",
+     "type": "string",
+     "value": "plat_top_R"
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "type": "plat_top_S",
+   "properties": [
+    {
+     "name": "collides",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "oneWay",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "deco",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "name",
+     "type": "string",
+     "value": "plat_top_S"
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "type": "plat_under_L",
+   "properties": [
+    {
+     "name": "collides",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "oneWay",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "deco",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "name",
+     "type": "string",
+     "value": "plat_under_L"
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "type": "plat_under_M",
+   "properties": [
+    {
+     "name": "collides",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "oneWay",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "deco",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "name",
+     "type": "string",
+     "value": "plat_under_M"
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "type": "plat_under_R",
+   "properties": [
+    {
+     "name": "collides",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "oneWay",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "deco",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "name",
+     "type": "string",
+     "value": "plat_under_R"
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "type": "plat_under_S",
+   "properties": [
+    {
+     "name": "collides",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "oneWay",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "deco",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "name",
+     "type": "string",
+     "value": "plat_under_S"
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "type": "oneway_L",
+   "properties": [
+    {
+     "name": "collides",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "oneWay",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "deco",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "name",
+     "type": "string",
+     "value": "oneway_L"
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "type": "oneway_M",
+   "properties": [
+    {
+     "name": "collides",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "oneWay",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "deco",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "name",
+     "type": "string",
+     "value": "oneway_M"
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "type": "oneway_R",
+   "properties": [
+    {
+     "name": "collides",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "oneWay",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "deco",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "name",
+     "type": "string",
+     "value": "oneway_R"
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "type": "oneway_S",
+   "properties": [
+    {
+     "name": "collides",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "oneWay",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "deco",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "name",
+     "type": "string",
+     "value": "oneway_S"
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "type": "float_L",
+   "properties": [
+    {
+     "name": "collides",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "oneWay",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "deco",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "name",
+     "type": "string",
+     "value": "float_L"
+    }
+   ]
+  },
+  {
+   "id": 18,
+   "type": "float_M",
+   "properties": [
+    {
+     "name": "collides",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "oneWay",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "deco",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "name",
+     "type": "string",
+     "value": "float_M"
+    }
+   ]
+  },
+  {
+   "id": 19,
+   "type": "float_R",
+   "properties": [
+    {
+     "name": "collides",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "oneWay",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "deco",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "name",
+     "type": "string",
+     "value": "float_R"
+    }
+   ]
+  },
+  {
+   "id": 20,
+   "type": "float_S",
+   "properties": [
+    {
+     "name": "collides",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "oneWay",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "deco",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "name",
+     "type": "string",
+     "value": "float_S"
+    }
+   ]
+  },
+  {
+   "id": 21,
+   "type": "float_hang",
+   "properties": [
+    {
+     "name": "collides",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "oneWay",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "deco",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "name",
+     "type": "string",
+     "value": "float_hang"
+    }
+   ]
+  },
+  {
+   "id": 22,
+   "type": "bg_wall",
+   "properties": [
+    {
+     "name": "collides",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "oneWay",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "deco",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "name",
+     "type": "string",
+     "value": "bg_wall"
+    }
+   ]
+  },
+  {
+   "id": 23,
+   "type": "bg_wall_var",
+   "properties": [
+    {
+     "name": "collides",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "oneWay",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "deco",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "name",
+     "type": "string",
+     "value": "bg_wall_var"
+    }
+   ]
+  },
+  {
+   "id": 24,
+   "type": "bg_wall_crack",
+   "properties": [
+    {
+     "name": "collides",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "oneWay",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "deco",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "name",
+     "type": "string",
+     "value": "bg_wall_crack"
+    }
+   ]
+  },
+  {
+   "id": 25,
+   "type": "bg_pillar",
+   "properties": [
+    {
+     "name": "collides",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "oneWay",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "deco",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "name",
+     "type": "string",
+     "value": "bg_pillar"
+    }
+   ]
+  },
+  {
+   "id": 26,
+   "type": "window_top",
+   "properties": [
+    {
+     "name": "collides",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "oneWay",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "deco",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "name",
+     "type": "string",
+     "value": "window_top"
+    }
+   ]
+  },
+  {
+   "id": 27,
+   "type": "window_bottom",
+   "properties": [
+    {
+     "name": "collides",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "oneWay",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "deco",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "name",
+     "type": "string",
+     "value": "window_bottom"
+    }
+   ]
+  },
+  {
+   "id": 28,
+   "type": "vine_top",
+   "properties": [
+    {
+     "name": "collides",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "oneWay",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "deco",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "name",
+     "type": "string",
+     "value": "vine_top"
+    }
+   ]
+  },
+  {
+   "id": 29,
+   "type": "vine_mid",
+   "properties": [
+    {
+     "name": "collides",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "oneWay",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "deco",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "name",
+     "type": "string",
+     "value": "vine_mid"
+    }
+   ]
+  },
+  {
+   "id": 30,
+   "type": "vine_end",
+   "properties": [
+    {
+     "name": "collides",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "oneWay",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "deco",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "name",
+     "type": "string",
+     "value": "vine_end"
+    }
+   ]
+  },
+  {
+   "id": 31,
+   "type": "grass_front",
+   "properties": [
+    {
+     "name": "collides",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "oneWay",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "deco",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "name",
+     "type": "string",
+     "value": "grass_front"
+    }
+   ]
+  },
+  {
+   "id": 32,
+   "type": "moss_drip",
+   "properties": [
+    {
+     "name": "collides",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "oneWay",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "deco",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "name",
+     "type": "string",
+     "value": "moss_drip"
+    }
+   ]
+  },
+  {
+   "id": 33,
+   "type": "banner_top",
+   "properties": [
+    {
+     "name": "collides",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "oneWay",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "deco",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "name",
+     "type": "string",
+     "value": "banner_top"
+    }
+   ]
+  },
+  {
+   "id": 34,
+   "type": "banner_mid",
+   "properties": [
+    {
+     "name": "collides",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "oneWay",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "deco",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "name",
+     "type": "string",
+     "value": "banner_mid"
+    }
+   ]
+  },
+  {
+   "id": 35,
+   "type": "banner_end",
+   "properties": [
+    {
+     "name": "collides",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "oneWay",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "deco",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "name",
+     "type": "string",
+     "value": "banner_end"
+    }
+   ]
+  },
+  {
+   "id": 36,
+   "type": "torch",
+   "properties": [
+    {
+     "name": "collides",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "oneWay",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "deco",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "name",
+     "type": "string",
+     "value": "torch"
+    }
+   ]
+  },
+  {
+   "id": 37,
+   "type": "lantern",
+   "properties": [
+    {
+     "name": "collides",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "oneWay",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "deco",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "name",
+     "type": "string",
+     "value": "lantern"
+    }
+   ]
+  },
+  {
+   "id": 38,
+   "type": "light_glow",
+   "properties": [
+    {
+     "name": "collides",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "oneWay",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "deco",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "name",
+     "type": "string",
+     "value": "light_glow"
+    }
+   ]
+  },
+  {
+   "id": 39,
+   "type": "crack_overlay",
+   "properties": [
+    {
+     "name": "collides",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "oneWay",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "deco",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "name",
+     "type": "string",
+     "value": "crack_overlay"
+    }
+   ]
+  },
+  {
+   "id": 40,
+   "type": "rubble",
+   "properties": [
+    {
+     "name": "collides",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "oneWay",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "deco",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "name",
+     "type": "string",
+     "value": "rubble"
+    }
+   ]
+  },
+  {
+   "id": 41,
+   "type": "chain",
+   "properties": [
+    {
+     "name": "collides",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "oneWay",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "deco",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "name",
+     "type": "string",
+     "value": "chain"
+    }
+   ]
+  },
+  {
+   "id": 42,
+   "type": "chest_marker",
+   "properties": [
+    {
+     "name": "collides",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "oneWay",
+     "type": "bool",
+     "value": false
+    },
+    {
+     "name": "deco",
+     "type": "bool",
+     "value": true
+    },
+    {
+     "name": "name",
+     "type": "string",
+     "value": "chest_marker"
+    }
+   ]
+  }
+ ],
+ "type": "tileset",
+ "version": "1.9",
+ "tiledversion": "1.9.2"
+}

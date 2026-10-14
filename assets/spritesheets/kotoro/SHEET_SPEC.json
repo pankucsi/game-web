@@ -1,0 +1,269 @@
+{
+  "id": "kotoro",
+  "frameWidth": 32,
+  "frameHeight": 40,
+  "origin": {
+    "x": 0.5,
+    "y": 1.0
+  },
+  "hitbox": {
+    "width": 20,
+    "height": 34,
+    "offsetX": 6,
+    "offsetY": 6
+  },
+  "footRow": 39,
+  "facing": "right (flipX for left)",
+  "source": "concept kotoro v3 (32x40)",
+  "note": "Fists are part of the sprite; dust/crack accent baked on attack_ground 1-2 and land 0-1. Rengés (quake) is a game effect.",
+  "airborneNote": "jump, fall, attack_air are not foot-anchored (torso stays put, legs tuck up). Ground anims keep feet on row 39.",
+  "deathNote": "death uses 64x40 cells; origin (0.5,1) keeps the body at the same world x; hitbox offsetX +16.",
+  "animations": {
+    "idle": {
+      "key": "kotoro-idle",
+      "file": "kotoro-idle.png",
+      "path": "/assets/spritesheets/kotoro/kotoro-idle.png",
+      "frameWidth": 32,
+      "frameHeight": 40,
+      "frames": 4,
+      "fps": 6,
+      "loop": true,
+      "repeat": -1,
+      "footAnchored": true,
+      "origin": {
+        "x": 0.5,
+        "y": 1.0,
+        "px": [
+          16,
+          40
+        ]
+      },
+      "hitbox": {
+        "width": 20,
+        "height": 34,
+        "offsetX": 6,
+        "offsetY": 6
+      }
+    },
+    "run": {
+      "key": "kotoro-run",
+      "file": "kotoro-run.png",
+      "path": "/assets/spritesheets/kotoro/kotoro-run.png",
+      "frameWidth": 32,
+      "frameHeight": 40,
+      "frames": 8,
+      "fps": 12,
+      "loop": true,
+      "repeat": -1,
+      "footAnchored": true,
+      "origin": {
+        "x": 0.5,
+        "y": 1.0,
+        "px": [
+          16,
+          40
+        ]
+      },
+      "hitbox": {
+        "width": 20,
+        "height": 34,
+        "offsetX": 6,
+        "offsetY": 6
+      }
+    },
+    "jump": {
+      "key": "kotoro-jump",
+      "file": "kotoro-jump.png",
+      "path": "/assets/spritesheets/kotoro/kotoro-jump.png",
+      "frameWidth": 32,
+      "frameHeight": 40,
+      "frames": 2,
+      "fps": 10,
+      "loop": false,
+      "repeat": 0,
+      "footAnchored": false,
+      "origin": {
+        "x": 0.5,
+        "y": 1.0,
+        "px": [
+          16,
+          40
+        ]
+      },
+      "hitbox": {
+        "width": 20,
+        "height": 34,
+        "offsetX": 6,
+        "offsetY": 6
+      },
+      "holdLastFrame": true
+    },
+    "fall": {
+      "key": "kotoro-fall",
+      "file": "kotoro-fall.png",
+      "path": "/assets/spritesheets/kotoro/kotoro-fall.png",
+      "frameWidth": 32,
+      "frameHeight": 40,
+      "frames": 2,
+      "fps": 8,
+      "loop": true,
+      "repeat": -1,
+      "footAnchored": false,
+      "origin": {
+        "x": 0.5,
+        "y": 1.0,
+        "px": [
+          16,
+          40
+        ]
+      },
+      "hitbox": {
+        "width": 20,
+        "height": 34,
+        "offsetX": 6,
+        "offsetY": 6
+      }
+    },
+    "land": {
+      "key": "kotoro-land",
+      "file": "kotoro-land.png",
+      "path": "/assets/spritesheets/kotoro/kotoro-land.png",
+      "frameWidth": 32,
+      "frameHeight": 40,
+      "frames": 2,
+      "fps": 15,
+      "loop": false,
+      "repeat": 0,
+      "footAnchored": true,
+      "origin": {
+        "x": 0.5,
+        "y": 1.0,
+        "px": [
+          16,
+          40
+        ]
+      },
+      "hitbox": {
+        "width": 20,
+        "height": 34,
+        "offsetX": 6,
+        "offsetY": 6
+      }
+    },
+    "attack_ground": {
+      "key": "kotoro-attack-ground",
+      "file": "kotoro-attack-ground.png",
+      "path": "/assets/spritesheets/kotoro/kotoro-attack-ground.png",
+      "frameWidth": 32,
+      "frameHeight": 40,
+      "frames": 5,
+      "fps": 15,
+      "loop": false,
+      "repeat": 0,
+      "footAnchored": true,
+      "origin": {
+        "x": 0.5,
+        "y": 1.0,
+        "px": [
+          16,
+          40
+        ]
+      },
+      "hitbox": {
+        "width": 20,
+        "height": 34,
+        "offsetX": 6,
+        "offsetY": 6
+      },
+      "hitFrames": [
+        1,
+        2
+      ],
+      "hitFramesNote": "active hit frames (0-based); quake on land is a code effect"
+    },
+    "attack_air": {
+      "key": "kotoro-attack-air",
+      "file": "kotoro-attack-air.png",
+      "path": "/assets/spritesheets/kotoro/kotoro-attack-air.png",
+      "frameWidth": 32,
+      "frameHeight": 40,
+      "frames": 4,
+      "fps": 15,
+      "loop": false,
+      "repeat": 0,
+      "footAnchored": false,
+      "origin": {
+        "x": 0.5,
+        "y": 1.0,
+        "px": [
+          16,
+          40
+        ]
+      },
+      "hitbox": {
+        "width": 20,
+        "height": 34,
+        "offsetX": 6,
+        "offsetY": 6
+      },
+      "hitFrames": [
+        1,
+        2
+      ],
+      "hitFramesNote": "active hit frames (0-based); quake on land is a code effect"
+    },
+    "hurt": {
+      "key": "kotoro-hurt",
+      "file": "kotoro-hurt.png",
+      "path": "/assets/spritesheets/kotoro/kotoro-hurt.png",
+      "frameWidth": 32,
+      "frameHeight": 40,
+      "frames": 2,
+      "fps": 10,
+      "loop": false,
+      "repeat": 0,
+      "footAnchored": true,
+      "origin": {
+        "x": 0.5,
+        "y": 1.0,
+        "px": [
+          16,
+          40
+        ]
+      },
+      "hitbox": {
+        "width": 20,
+        "height": 34,
+        "offsetX": 6,
+        "offsetY": 6
+      }
+    },
+    "death": {
+      "key": "kotoro-death",
+      "file": "kotoro-death.png",
+      "path": "/assets/spritesheets/kotoro/kotoro-death.png",
+      "frameWidth": 64,
+      "frameHeight": 40,
+      "frames": 8,
+      "fps": 8,
+      "loop": false,
+      "repeat": 0,
+      "footAnchored": true,
+      "origin": {
+        "x": 0.5,
+        "y": 1.0,
+        "px": [
+          32,
+          40
+        ]
+      },
+      "hitbox": {
+        "width": 20,
+        "height": 34,
+        "offsetX": 22,
+        "offsetY": 6
+      },
+      "holdLastFrame": true
+    }
+  }
+}
