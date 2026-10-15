@@ -1,0 +1,530 @@
+{
+ "canvas": [
+  720,
+  540
+ ],
+ "scale": 1,
+ "character": "harcos",
+ "elements": {
+  "dim_veil": [
+   {
+    "x": 0,
+    "y": 0,
+    "w": 720,
+    "h": 540,
+    "src": "gameover/pieces/dim_veil.png"
+   }
+  ],
+  "showcase_frame": [
+   {
+    "x": 88,
+    "y": 124,
+    "w": 232,
+    "h": 280,
+    "src": "charselect/pieces/showcase_frame.png"
+   }
+  ],
+  "pedestal": [
+   {
+    "x": 136,
+    "y": 316,
+    "w": 136,
+    "h": 40,
+    "src": "charselect/pieces/pedestal.png"
+   }
+  ],
+  "ghost_glow": [
+   {
+    "x": 180,
+    "y": 316,
+    "w": 48,
+    "h": 6,
+    "src": "gameover/pieces/ghost_glow.png"
+   }
+  ],
+  "nameplate": [
+   {
+    "x": 128,
+    "y": 362,
+    "w": 152,
+    "h": 28,
+    "src": "charselect/pieces/nameplate.png"
+   }
+  ],
+  "panel": [
+   {
+    "x": 344,
+    "y": 124,
+    "w": 288,
+    "h": 280,
+    "src": "charselect/pieces/panel.png"
+   }
+  ],
+  "skull_icon": [
+   {
+    "x": 600,
+    "y": 142,
+    "w": 9,
+    "h": 9,
+    "src": "gameover/pieces/skull_icon.png"
+   }
+  ],
+  "divider": [
+   {
+    "x": 364,
+    "y": 164,
+    "w": 248,
+    "h": 3,
+    "src": "gameover/pieces/divider.png"
+   },
+   {
+    "x": 364,
+    "y": 260,
+    "w": 248,
+    "h": 3,
+    "src": "gameover/pieces/divider.png"
+   }
+  ],
+  "item_icon_frame": [
+   {
+    "x": 384,
+    "y": 292,
+    "w": 40,
+    "h": 40,
+    "src": "charselect/pieces/item_icon_frame.png"
+   },
+   {
+    "x": 440,
+    "y": 292,
+    "w": 40,
+    "h": 40,
+    "src": "charselect/pieces/item_icon_frame.png"
+   },
+   {
+    "x": 496,
+    "y": 292,
+    "w": 40,
+    "h": 40,
+    "src": "charselect/pieces/item_icon_frame.png"
+   },
+   {
+    "x": 552,
+    "y": 292,
+    "w": 40,
+    "h": 40,
+    "src": "charselect/pieces/item_icon_frame.png"
+   },
+   {
+    "x": 384,
+    "y": 348,
+    "w": 40,
+    "h": 40,
+    "src": "charselect/pieces/item_icon_frame.png"
+   },
+   {
+    "x": 440,
+    "y": 348,
+    "w": 40,
+    "h": 40,
+    "src": "charselect/pieces/item_icon_frame.png"
+   },
+   {
+    "x": 496,
+    "y": 348,
+    "w": 40,
+    "h": 40,
+    "src": "charselect/pieces/item_icon_frame.png"
+   },
+   {
+    "x": 552,
+    "y": 348,
+    "w": 40,
+    "h": 40,
+    "src": "charselect/pieces/item_icon_frame.png"
+   }
+  ],
+  "button": [
+   {
+    "x": 168,
+    "y": 442,
+    "w": 184,
+    "h": 32,
+    "src": "charselect/pieces/button.png"
+   }
+  ],
+  "button_dim": [
+   {
+    "x": 368,
+    "y": 442,
+    "w": 184,
+    "h": 32,
+    "src": "gameover/pieces/button_dim.png"
+   }
+  ],
+  "cursor": [
+   {
+    "x": 156,
+    "y": 453,
+    "w": 9,
+    "h": 11,
+    "src": "charselect/pieces/cursor.png"
+   }
+  ],
+  "ghost_harcos": [
+   {
+    "x": 170,
+    "y": 226,
+    "w": 68,
+    "h": 84,
+    "src": "gameover/pieces/ghost_harcos.png (2x; semi-transparent, palette check relaxed)",
+    "alt": "gameover/pieces/fallen_harcos.png"
+   }
+  ]
+ },
+ "texts": {
+  "title": {
+   "text": "ELBUKTÁL",
+   "x": 266,
+   "y": 48,
+   "scale": 4,
+   "color": "scarf_2",
+   "shadow": "ui_ink"
+  },
+  "subtitle": {
+   "text": "A torony ezúttal erősebb volt.",
+   "x": 270,
+   "y": 90,
+   "scale": 1,
+   "color": "stone_6"
+  },
+  "name": {
+   "text": "HARCOS",
+   "x": 169,
+   "y": 372,
+   "scale": 2,
+   "color": "ui_ink"
+  },
+  "panel_title": {
+   "text": "EREDMÉNY",
+   "x": 364,
+   "y": 142,
+   "scale": 2,
+   "color": "warm_3"
+  },
+  "stats": [
+   {
+    "label": "PONTSZÁM",
+    "value": "12 340",
+    "data": "score",
+    "label_xy": [
+     364,
+     187
+    ],
+    "value_right_x": 612,
+    "value_y": 184,
+    "value_scale": 2,
+    "color": "warm_3"
+   },
+   {
+    "label": "JÁTÉKIDŐ",
+    "value": "04:37",
+    "data": "playTime mm:ss",
+    "label_xy": [
+     364,
+     220
+    ],
+    "value_right_x": 612,
+    "value_y": 220,
+    "value_scale": 1,
+    "color": "ui_paper"
+   },
+   {
+    "label": "BOSSHARC",
+    "value": "01:12",
+    "data": "bossFightTime mm:ss, row hidden if no boss fight",
+    "label_xy": [
+     364,
+     242
+    ],
+    "value_right_x": 612,
+    "value_y": 242,
+    "value_scale": 1,
+    "color": "scarf_3"
+   }
+  ],
+  "items_label": {
+   "text": "ITEMEK",
+   "x": 364,
+   "y": 270,
+   "count_text": "n/8 right-aligned to x=612"
+  },
+  "item_slots": [
+   {
+    "slot": 0,
+    "x": 384,
+    "y": 292,
+    "w": 40,
+    "h": 40,
+    "icon_xy": [
+     388,
+     296
+    ],
+    "icon_size": 32,
+    "level_anchor": {
+     "center_x": 404,
+     "cap_top_y": 335,
+     "scale": 1,
+     "color": "warm_4",
+     "shadow": "ui_ink"
+    },
+    "example_icon": "item_szel_shuriken",
+    "example_level": "Lv3"
+   },
+   {
+    "slot": 1,
+    "x": 440,
+    "y": 292,
+    "w": 40,
+    "h": 40,
+    "icon_xy": [
+     444,
+     296
+    ],
+    "icon_size": 32,
+    "level_anchor": {
+     "center_x": 460,
+     "cap_top_y": 335,
+     "scale": 1,
+     "color": "warm_4",
+     "shadow": "ui_ink"
+    },
+    "example_icon": "item_fa_mohasziv",
+    "example_level": "Lv2"
+   },
+   {
+    "slot": 2,
+    "x": 496,
+    "y": 292,
+    "w": 40,
+    "h": 40,
+    "icon_xy": [
+     500,
+     296
+    ],
+    "icon_size": 32,
+    "level_anchor": {
+     "center_x": 516,
+     "cap_top_y": 335,
+     "scale": 1,
+     "color": "warm_4",
+     "shadow": "ui_ink"
+    },
+    "example_icon": "item_ko_granitokol",
+    "example_level": "Lv1"
+   },
+   {
+    "slot": 3,
+    "x": 552,
+    "y": 292,
+    "w": 40,
+    "h": 40,
+    "icon_xy": [
+     556,
+     296
+    ],
+    "icon_size": 32,
+    "level_anchor": {
+     "center_x": 572,
+     "cap_top_y": 335,
+     "scale": 1,
+     "color": "warm_4",
+     "shadow": "ui_ink"
+    },
+    "example_icon": "item_ver_hasito_karom",
+    "example_level": "Lv4"
+   },
+   {
+    "slot": 4,
+    "x": 384,
+    "y": 348,
+    "w": 40,
+    "h": 40,
+    "icon_xy": [
+     388,
+     352
+    ],
+    "icon_size": 32,
+    "level_anchor": {
+     "center_x": 404,
+     "cap_top_y": 391,
+     "scale": 1,
+     "color": "warm_4",
+     "shadow": "ui_ink"
+    },
+    "example_icon": "item_szel_solyomtoll",
+    "example_level": "Lv1"
+   },
+   {
+    "slot": 5,
+    "x": 440,
+    "y": 348,
+    "w": 40,
+    "h": 40,
+    "icon_xy": [
+     444,
+     352
+    ],
+    "icon_size": 32,
+    "level_anchor": {
+     "center_x": 460,
+     "cap_top_y": 391,
+     "scale": 1,
+     "color": "warm_4",
+     "shadow": "ui_ink"
+    },
+    "example_icon": "item_ko_rengesgyuru",
+    "example_level": "Lv2"
+   },
+   {
+    "slot": 6,
+    "x": 496,
+    "y": 348,
+    "w": 40,
+    "h": 40,
+    "icon_xy": [
+     500,
+     352
+    ],
+    "icon_size": 32,
+    "level_anchor": {
+     "center_x": 516,
+     "cap_top_y": 391,
+     "scale": 1,
+     "color": "warm_4",
+     "shadow": "ui_ink"
+    },
+    "example": "empty"
+   },
+   {
+    "slot": 7,
+    "x": 552,
+    "y": 348,
+    "w": 40,
+    "h": 40,
+    "icon_xy": [
+     556,
+     352
+    ],
+    "icon_size": 32,
+    "level_anchor": {
+     "center_x": 572,
+     "cap_top_y": 391,
+     "scale": 1,
+     "color": "warm_4",
+     "shadow": "ui_ink"
+    },
+    "example": "empty"
+   }
+  ],
+  "buttons": [
+   {
+    "text": "ÚJRA",
+    "x": 168,
+    "y": 442,
+    "w": 184,
+    "h": 32,
+    "state": "selected",
+    "action": "restart GameScene (same char)"
+   },
+   {
+    "text": "FŐMENÜ",
+    "x": 368,
+    "y": 442,
+    "w": 184,
+    "h": 32,
+    "state": "normal",
+    "action": "MainMenuScene"
+   }
+  ],
+  "hint": {
+   "text": "< >  VÁLASZT    ENTER  MEGERŐSÍT    ESC  FŐMENÜ",
+   "x": 219,
+   "y": 492,
+   "scale": 1,
+   "color": "shadow_4"
+  }
+ },
+ "font": "charselect/pieces/font5x7.png (+json); text y = cap top, i.e. cell y+3",
+ "victory": {
+  "note": "Victory variant; everything not listed here is identical to the defeat keys above (panel, stats, items, buttons, hint, cursor). skull_icon is NOT drawn.",
+  "title": {
+   "text": "GYŐZELEM!",
+   "x": 254,
+   "y": 48,
+   "scale": 4,
+   "color": "tier_arany",
+   "highlight": "warm_4",
+   "shadow": "ui_ink"
+  },
+  "subtitle": {
+   "text": "A KÖVETKEZŐ GHOST BOSS TE LESZEL",
+   "x": 264,
+   "y": 90,
+   "scale": 1,
+   "color": "warm_4",
+   "optional": true,
+   "hideable": true,
+   "placeholder": true
+  },
+  "victory_rays": {
+   "x": 104,
+   "y": 170,
+   "w": 200,
+   "h": 200,
+   "src": "gameover/pieces/victory_rays.png",
+   "origin": [
+    0.5,
+    0.5
+   ],
+   "center": [
+    204,
+    270
+   ]
+  },
+  "victory_glow": {
+   "x": 180,
+   "y": 316,
+   "w": 48,
+   "h": 6,
+   "src": "gameover/pieces/victory_glow.png",
+   "replaces": "ghost_glow"
+  },
+  "hero": {
+   "src": "gameover/pieces/victory_<id>.png",
+   "size": [
+    34,
+    42
+   ],
+   "scale": 2,
+   "origin": [
+    0.5,
+    1
+   ],
+   "x": 204,
+   "y": 320,
+   "top_left_2x": [
+    170,
+    236,
+    68,
+    84
+   ],
+   "note": "same canvas/origin/x as ghost_<id>_opaque; y=320 (ghost y=310 hovers) so the feet stand on the pedestal top"
+  },
+  "ids": [
+   "harcos",
+   "erdojaro",
+   "kotoro",
+   "vervadasz"
+  ]
+ }
+}

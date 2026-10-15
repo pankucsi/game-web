@@ -264,6 +264,34 @@
         "offsetY": 6
       },
       "holdLastFrame": true
+    },
+    "double_jump": {
+      "key": "kotoro-double-jump",
+      "file": "kotoro-double-jump.png",
+      "path": "/assets/spritesheets/kotoro/kotoro-double-jump.png",
+      "frameWidth": 32,
+      "frameHeight": 40,
+      "frames": 4,
+      "fps": 16,
+      "loop": false,
+      "repeat": 0,
+      "footAnchored": false,
+      "origin": {
+        "x": 0.5,
+        "y": 1.0,
+        "px": [
+          16,
+          40
+        ]
+      },
+      "hitbox": {
+        "width": 20,
+        "height": 34,
+        "offsetX": 6,
+        "offsetY": 6
+      },
+      "next": "fall",
+      "note": "Tucked forward somersault on the second jump: tuck, 90deg, inverted, unfold. Then play fall. Spawn effect airring at the feet on frame 0."
     }
   }
 }
